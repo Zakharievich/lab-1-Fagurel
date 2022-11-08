@@ -3,7 +3,7 @@ description: Greet someone
 
 runs:
   using: node12
-  main: dist/index.js
+  main: node_modules/@vercel/ncc/dist/ncc/index.js
 
 inputs:
   Name:
